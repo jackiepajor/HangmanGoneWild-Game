@@ -1,0 +1,50 @@
+body {
+	background-color: #c79124;
+	background-image: url("https://www.transparenttextures.com/patterns/dark-mosaic.png");
+}
+
+.jumbotron {  
+	background-color: black;
+	color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	text-align: center;
+	margin-bottom: 2%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border: solid #d5d9e0 5px;
+}
+
+/* Gone Wild! */
+h2 {
+	font-size: 40px;
+	color: Orange;	
+}
+
+/* Game board lettering */
+#guessesRemaining, #lettersGuessed {
+	font-size: 24px;
+}
+#currentWord, #wins, #losses {
+	font-size: 35px;
+	font-weight: bold;
+}
+
+/* Left container with game board */
+.left {
+	background-color: #d5d9e0;
+	border-radius: 6px;
+	border: solid black 5px;
+}
+
+/* Right containter with image */
+.right {
+	padding-right: 0;
+}
+
+/* Giraffes */
+img { 
+	border-radius: 6px;
+	width: 100%;
+	border: solid black 5px;
+}
+
